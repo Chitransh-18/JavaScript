@@ -37,6 +37,7 @@ console.log(typeof arr)
 
 // Slice , Splice 
 
+/*
 console.log('A ', array2);
 const newarray2 = array2.slice(0,4)
 console.log(newarray2);
@@ -44,7 +45,22 @@ console.log('The array after slice operation: ', array2);
 
 
 console.log('B ', array2 );
-const newarray3 = array2.splice(0,4)
+const newarray3 = array2.splice(0,3)
 console.log(newarray3);
 
 console.log('The array after Splice operation: ', array2);
+*/
+
+const MarvelHeros = ['IronMan', 'Thor', 'Spiderman', 'Captain_America']
+const DCHeros = ['SuperMan', 'Flash', 'BatMan', 'Wonder_Women']
+/*
+MarvelHeros.push(DCHeros)
+
+console.log(MarvelHeros.length)
+console.log(MarvelHeros);
+*/
+// const AllHeros = MarvelHeros.concat(DCHeros)
+// console.log(AllHeros);
+
+const new_All_Heros = [...MarvelHeros,...DCHeros]
+console.log(new_All_Heros)
