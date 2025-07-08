@@ -61,3 +61,11 @@ const myFunction = function() {
 }
 
 console.log(typeof Bignumber);
+console.log(type);
+
+// There are two types of memory 
+// Stack (Primitive) and Heap (Non primitive)
+// primary difference between stck and heap is: 
+// Whenever you assgin a variable in stack it gives you a copy of the original value so any changes made will be in the copy
+// whereas in heap you are given a refrence so anychanges made will be result in the change of original value of the variable
+// Stack is faster than heap because it is faster to access the memory location in stack than in heap
